@@ -68,7 +68,7 @@ public class HashMapExample {
         System.out.println("");
         System.out.println("Fetching key 1234 -> "+simpleHashMap.get("1234"));
         System.out.println("Removing 123-4569");
-        simpleHashMap.remove("123-4569");
+        System.out.println(simpleHashMap.remove("123-4569"));
         simpleHashMap.printMap();
     }
 }
